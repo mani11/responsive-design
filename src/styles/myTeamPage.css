@@ -44,6 +44,21 @@ img {
   display: flex;
   justify-content: center;
 }
+.imageConatiner {
+  display: flex;
+  flex-direction: "column";
+}
+.imageWithVerticalHeading {
+  display: flex;
+  flex-direction: "row";
+}
+.teammate-role {
+  writing-mode: vertical-rl;
+}
+#image5,
+#image2 {
+  margin-top: 3rem;
+}
 @media (max-width: 480px) {
   #content {
     width: 100vh;
@@ -56,5 +71,11 @@ img {
   }
   #image-grid {
     grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  #image5,
+  #image2 {
+    margin-top: 0;
   }
 }
