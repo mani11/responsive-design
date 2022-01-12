@@ -68,6 +68,7 @@ main {
   main {
     display: flex;
     flex-direction: column;
+    height: auto;
   }
   #main-content > h2 {
     font-size: 3rem;
